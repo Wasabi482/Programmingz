@@ -1,0 +1,194 @@
+* {
+  font-family:"Segoe UI",sans-serif;
+  box-sizing: border-box;
+  font-size: 15px;
+  overflow: hidden;
+}
+body {
+  background:hsl(199, 81%, 94%);
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+}
+
+.sidebar{
+  width: 200px;
+  position: absolute;
+  z-index: -1;
+  margin-top: 50px;
+  margin-left: 225px;
+  margin-right: 50px;
+
+}
+.form{
+  position: fixed;
+  background-color: white;
+  width: 58%;
+  height: 100%;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0;
+}
+.new-item-form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 70%;
+  margin-top: 50px;
+  z-index: 0;
+  right: 0;
+  
+ 
+}
+.background{
+  position: absolute;
+  width: 650px;
+  z-index: -2;
+  left: 0;
+  bottom: 0;
+
+}
+
+.logo{
+  width: 200px;
+  
+}
+.logoImage{
+  width: 100%;
+  height:auto;
+  object-fit: cover;
+}
+
+.btn {  
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  width: 200px;
+  height: 50px;
+  align-self: center;
+}
+
+.btn:hover,
+.btn:focus-visible {
+  background: hsl(200, 100%, 50%, 0.2);
+}
+.google:hover,
+.google:focus-visible {
+  background: hsl(200, 100%, 50%, 0.2);
+}
+
+.apple:hover,
+.apple:focus-visible {
+  background: hsla(0, 0%, 42%, 0.2);
+}
+
+.new-item-form input[type="text"],input[type="password"] {
+  outline: none;
+  border: none;
+  background:rgb(236, 236, 236);
+  border-radius: 10px;
+  padding: 10px;
+  color:black;
+  height: 40px;
+  width: 100%;
+  
+}
+
+.forgotPass{
+  text-decoration: none;
+  color:blue;
+  position: absolute;
+  right: 0;
+}
+
+.checkbox{
+  transform: scale(1.5);
+  
+}
+
+.header {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  flex-wrap: nowrap;
+  margin: 0;
+}
+
+.label-bold{
+  font-weight: bold;
+}
+
+.forgotPass{
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.or-separator{
+  display: flex;
+  flex-direction: row;
+}
+.separator{
+ 
+  color: lightgray;
+  width: 100%;
+  margin: 30px 0;
+  
+}
+.or-text{
+  
+  text-align: center;
+  margin: 0;
+  color: lightgray;
+  padding: 10px;
+}
+
+.create-account{
+  position:absolute;
+  text-decoration: underline;
+  color: black;
+  right: 0;
+  z-index: 1;
+  margin-top: 25px;
+  margin-right: 50px;
+  
+}
+.otherSignIn{
+  font-weight: bold;
+  display: flex;
+  justify-content:space-between;
+}
+.google{
+  border: none;
+  width: 300px;
+  height: 40px;
+  background-color: lightskyblue;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.apple{
+  border: none;
+  width: 300px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.sub-header{
+  margin-top: -10px;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+}
